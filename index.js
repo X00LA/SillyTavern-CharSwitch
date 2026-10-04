@@ -13,7 +13,7 @@ const settings = Object.assign({
     onlyFavorites: false,
     highlightFavorites: true,
     numCards: 10,
-}, extension_settings.charSwitchx ?? {});
+}, extension_settings.charSwitch ?? {});
 extension_settings.charSwitch = settings;
 
 
